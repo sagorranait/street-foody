@@ -1,16 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 import './Style/app.scss';
+import { routes } from './routes';
 import { store } from './app/store';
 import { Provider } from 'react-redux';
+import { CssBaseline } from '@mui/material';
+import { RouterProvider } from 'react-router-dom';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('StreetFoody'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <RouterProvider router={routes} />
+      <CssBaseline/>
     </Provider>
   </React.StrictMode>
 );
