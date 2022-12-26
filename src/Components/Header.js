@@ -3,15 +3,19 @@ import {
    Nav, 
    Navbar 
 } from 'react-bootstrap';
+import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../assets/logo.png';
+import logoBlack from '../assets/logo-black.png';
 
 function Header() {
+   const location = useLocation();
+
   return (
    <Navbar id='streetNavbar' expand="lg">
       <Container>
          <Navbar.Brand href="#home">
          <img
-              src={logo}
+              src={location.pathname === '/' ? logo : logoBlack}
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
@@ -19,12 +23,41 @@ function Header() {
          <Navbar.Toggle aria-controls="basic-navbar-nav" />
          <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-               <Nav.Link href="#home">Home</Nav.Link>
-               <Nav.Link href="#home">About</Nav.Link>
-               <Nav.Link href="#home">Destination</Nav.Link>
-               <Nav.Link href="#home">Blog</Nav.Link>
-               <Nav.Link href="#home">Contact</Nav.Link>
-               <Nav.Link href="#home" className='streetFood-btn'>Login</Nav.Link>
+               <NavLink 
+                  to='/' 
+                  className={`nav-link ${({ isActive }) => isActive ? "active" : ""}` }
+                  style={{color: `${location.pathname === '/' ? '#fff' : '#000'}`}}
+                  end
+               >
+                  Home
+               </NavLink>
+               <NavLink 
+                  to='/destination' 
+                  className={`nav-link ${({ isActive }) => isActive ? "active" : ""}` }
+                  style={{color: `${location.pathname === '/' ? '#fff' : '#000'}`}}
+               >
+                  Destination
+               </NavLink>
+               <NavLink 
+                  to='/blogs' 
+                  className={`nav-link ${({ isActive }) => isActive ? "active" : ""}` }
+                  style={{color: `${location.pathname === '/' ? '#fff' : '#000'}`}}
+               >
+                  Blogs
+               </NavLink>
+               <NavLink 
+                  to='/contact' 
+                  className={`nav-link ${({ isActive }) => isActive ? "active" : ""}` }
+                  style={{color: `${location.pathname === '/' ? '#fff' : '#000'}`}}
+               >
+                  Contact
+               </NavLink>
+               <NavLink 
+                  to='/login' 
+                  className='nav-link streetFood-btn'
+               >
+                  Login
+               </NavLink>
             </Nav>
          </Navbar.Collapse>
       </Container>

@@ -30,7 +30,7 @@ function Home() {
                   <div className="category-content">
                       <h1>Fuchka</h1>
                       <p>This Fuchka is usually served with tamarinds filled with spices filled with spicy potatoes in a round petal prepared by the flour and suji.</p>
-                      <button className='streetFood-btn'>Browse All <span><BsArrowRight/></span></button>
+                      <button className='streetFood-btn'>Buy Now <span><BsArrowRight/></span></button>
                   </div>
               </Col>
               <Col sm={12} md={6} lg={8} xl={8}>

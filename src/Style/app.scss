@@ -23,6 +23,13 @@ a{
    text-decoration: none;
 }
 
+.main-content{
+   position: absolute;
+   left: 0;
+   top: 15%;
+   width: 100%;
+}
+
 .streetFood-btn {
    padding: 12px 29px !important;
    background: #F9A51A;
@@ -34,4 +41,6 @@ a{
 
 @import "~bootstrap/scss/bootstrap";
 @import "./components/header";
+@import "./components/form";
+@import "./pages/contact";
 @import "./pages/home";
