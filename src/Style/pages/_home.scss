@@ -23,6 +23,12 @@
 
       .category-content{
         padding-right: 45px;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        
         h1{
             font-weight: 600;
             font-size: 97.6842px;
@@ -51,6 +57,21 @@
     border: 3px solid #FBBC04;
     border-radius: 20px;
 }
+
+.slick-prev:before, .slick-next:before {
+    font-size: 25px;
+}
+
+button.slick-arrow.slick-prev {
+    top: -25px;
+    left: 89%;
+}
+
+button.slick-arrow.slick-next {
+    top: -25px;
+    right: 40px;
+}
+
 }
 
 .category-card{

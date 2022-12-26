@@ -11,7 +11,13 @@ function Home() {
     infinite: true,
     centerPadding: "60px",
     slidesToShow: 3,
-    speed: 500
+    swipeToSlide: true,
+    speed: 500,
+    afterChange: function(index) {
+      console.log(
+        `Slider Changed to: ${index},`
+      );
+    }
   };
 
   return (
