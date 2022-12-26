@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247.73 102.08">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: Poppins-Black, Poppins;
+        font-size: 36.05px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-2" transform="translate(110.42 37.87)"><tspan x="0" y="0">STREET </tspan><tspan x="0" y="36.05">FOODY</tspan></text>
+    <g>
+      <rect class="cls-1" x="12.24" y="54.62" width="78.24" height="3.9"/>
+      <rect class="cls-1" y="62.56" width="13.33" height="2.83"/>
+      <rect class="cls-1" x="15.14" y="92.26" width="12.94" height="2.83" transform="translate(-72.06 115.28) rotate(-90)"/>
+      <circle class="cls-1" cx="63.83" cy="85.45" r="16.63"/>
+      <path class="cls-1" d="M15.48,60.68v24.77h27.61c0-11.45,9.28-20.74,20.74-20.74s20.74,9.28,20.74,20.74h3.62v-24.77H15.48Z"/>
+      <rect class="cls-1" x="20.87" y="33.88" width="2.15" height="18.71"/>
+      <rect class="cls-1" x="82.53" y="33.88" width="2.15" height="18.71"/>
+      <polygon class="cls-1" points="88.98 0 18.36 0 15.48 26.95 91.86 26.95 88.98 0"/>
+      <rect class="cls-1" x="15.48" y="27.94" width="76.37" height=".99"/>
+      <g>
+        <path class="cls-1" d="M19.39,32.75c2.04,0,3.69-1.65,3.69-3.69h-7.37c0,2.04,1.65,3.69,3.69,3.69Z"/>
+        <path class="cls-1" d="M27.03,32.75c2.04,0,3.69-1.65,3.69-3.69h-7.37c0,2.04,1.65,3.69,3.69,3.69Z"/>
+        <path class="cls-1" d="M34.66,32.75c2.04,0,3.69-1.65,3.69-3.69h-7.37c0,2.04,1.65,3.69,3.69,3.69Z"/>
+        <path class="cls-1" d="M42.3,32.75c2.04,0,3.69-1.65,3.69-3.69h-7.37c0,2.04,1.65,3.69,3.69,3.69Z"/>
+        <path class="cls-1" d="M49.93,32.75c2.04,0,3.69-1.65,3.69-3.69h-7.37c0,2.04,1.65,3.69,3.69,3.69Z"/>
+        <path class="cls-1" d="M57.57,32.75c2.04,0,3.69-1.65,3.69-3.69h-7.37c0,2.04,1.65,3.69,3.69,3.69Z"/>
+        <path class="cls-1" d="M65.2,32.75c2.04,0,3.69-1.65,3.69-3.69h-7.37c0,2.04,1.65,3.69,3.69,3.69Z"/>
+        <path class="cls-1" d="M72.84,32.75c2.04,0,3.69-1.65,3.69-3.69h-7.37c0,2.04,1.65,3.69,3.69,3.69Z"/>
+        <path class="cls-1" d="M80.47,32.75c2.04,0,3.69-1.65,3.69-3.69h-7.37c0,2.04,1.65,3.69,3.69,3.69Z"/>
+        <path class="cls-1" d="M88.17,32.75c2.04,0,3.69-1.65,3.69-3.69h-7.37c0,2.04,1.65,3.69,3.69,3.69Z"/>
+        <polygon class="cls-1" points="23.66 28.07 16.59 28.07 15.48 28.07 15.48 29.07 16.44 29.07 23.82 29.07 91.86 29.07 91.86 28.07 23.66 28.07"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+#main{
+   width: 100%;
+   height: 100vh;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+
+   .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgb(12 12 12 / 69%);
+  }
+
+  .content{
+      position: absolute;
+      width: 100%;
+      top: 30%;
+      z-index: 1;
+  }
+}
+
+.category-card{
+    text-decoration: none;
+    span{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        color: #FFFFFF;
+    }
+}

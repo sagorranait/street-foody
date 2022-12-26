@@ -2,19 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
-import './Style/app.scss';
 import { routes } from './routes';
 import { store } from './app/store';
 import { Provider } from 'react-redux';
-import { CssBaseline } from '@mui/material';
 import { RouterProvider } from 'react-router-dom';
+
+import './Style/app.scss';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const root = ReactDOM.createRoot(document.getElementById('StreetFoody'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <RouterProvider router={routes} />
-      <CssBaseline/>
+        <RouterProvider router={routes} />
     </Provider>
   </React.StrictMode>
 );
