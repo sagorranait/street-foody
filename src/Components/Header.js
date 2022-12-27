@@ -39,11 +39,11 @@ function Header() {
                   Destination
                </NavLink>
                <NavLink 
-                  to='/blogs' 
+                  to='/recipes' 
                   className={`nav-link ${({ isActive }) => isActive ? "active" : ""}` }
                   style={{color: `${location.pathname === '/' ? '#fff' : '#000'}`}}
                >
-                  Blogs
+                  Recipes
                </NavLink>
                <NavLink 
                   to='/contact' 

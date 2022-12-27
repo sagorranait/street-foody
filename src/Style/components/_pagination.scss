@@ -1,0 +1,24 @@
+.pagination{
+   padding: 40px 0;
+   align-items: center;
+   justify-content: center;
+   li{
+      width: 60px;
+      height: 60px;
+      border-radius: 50px;
+      background: #f9a51a3b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+      cursor: pointer;
+
+      &:last-child{
+         margin-right: 0;
+      }
+   }
+
+   .active{
+      background: #F9A51A;
+   }
+}

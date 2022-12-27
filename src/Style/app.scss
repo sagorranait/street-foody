@@ -28,6 +28,15 @@ a{
    left: 0;
    top: 15%;
    width: 100%;
+
+   .main-title{
+      text-align: center;
+      margin-bottom: 50px;
+
+      h2{
+         font-weight: 600;
+      }
+   }
 }
 
 .streetFood-btn {
@@ -41,7 +50,9 @@ a{
 
 @import "~bootstrap/scss/bootstrap";
 @import "./components/contactInfo";
+@import "./components/pagination";
 @import "./components/header";
 @import "./components/form";
 @import "./pages/contact";
+@import "./pages/recipes";
 @import "./pages/home";
