@@ -7,6 +7,7 @@ import Recipes from "./Pages/Recipes";
 import Register from "./Pages/Register";
 import Contact from "./Pages/Contact";
 import Destination from "./Pages/Destination";
+import RecipeDetails from "./Components/RecipeDetails";
 
 const routes = createBrowserRouter([
    { 
@@ -15,7 +16,10 @@ const routes = createBrowserRouter([
       children: [
          { index: true, element: <Home/> },
          { path: 'destination', element: <Destination/> },
-         { path: 'recipes', element: <Recipes/> },
+         { path: 'recipes', children: [
+            { index: true, element: <Recipes/> },
+            { path: 'details/:id', element: <RecipeDetails/> },
+         ]},
          { path: 'contact', element: <Contact/> },
          { path: 'login', element: <Login/> },
          { path: 'register', element: <Register/> }

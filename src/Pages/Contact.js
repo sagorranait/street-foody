@@ -18,7 +18,7 @@ function Contact() {
                   <ContactInfo icon={<FaPhoneAlt/>} title='Phone Number' text='+0123 4567 9876' />
                   <ContactInfo icon={<FaEnvelope/>} title='Email Address' text='example@gmail.com' />
                   <ContactInfo icon={<FaFax/>} title='Fax Address' text='+0123 4567 9876' />
-                  <ContactInfo icon={<FaMapMarkerAlt/>} title='Location' text='Dhanmondi, BD' />
+                  <ContactInfo icon={<FaMapMarkerAlt/>} title='Location' text='Dhanmondi, Dhaka' />
                 </div>
               </Col>
               <Col sm={12} md={6} lg={9} xl={9}>

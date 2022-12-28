@@ -1,0 +1,105 @@
+.resipe-details-image{
+   img{
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 5px;
+   }
+
+   .resipe-info{
+      height: 279px;
+      padding: 25px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 4px 1px rgb(0 0 0 / 9%);
+      ul{
+         margin: 0;
+         padding: 0;
+         list-style: none;
+         li{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-bottom: 23px;
+            &:last-child{
+               margin-bottom: 0;
+            }
+            span{
+               width: 40px;
+               height: 40px;
+               border-radius: 50px;
+               background: #f9a51a3b;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+         
+               svg{
+                  font-size: 18px;
+               }
+            }
+
+            p{
+               margin: 0;
+            }
+         }
+      }
+   }
+}
+
+.resipe-details-content{
+   margin-top: 24px;
+   h3{
+      font-size: 25px;
+      margin-bottom: 15px;
+   }
+   p{}
+   .resipe-ingredients{
+      height: 455px;
+      padding: 15px 25px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 4px 1px rgb(0 0 0 / 9%);
+      .ingredients-text{
+         height: 90%;
+         overflow: auto;
+   
+         /* width */
+         &::-webkit-scrollbar {
+            width: 5px;
+         }
+         
+         /* Track */
+         &::-webkit-scrollbar-track {
+            background: #f1f1f1;
+         }
+         
+         /* Handle */
+         &::-webkit-scrollbar-thumb {
+            background: rgb(173, 173, 173);
+            border-radius: 5px;
+         }
+         
+         /* Handle on hover */
+         &::-webkit-scrollbar-thumb:hover {
+            background: rgb(133, 133, 133);
+            border-radius: 5px;
+         }
+   
+         ol{
+            margin: 0;
+            padding: 0;
+            
+            li{
+               padding-bottom: 10px;
+            }
+         }
+      }
+   }
+   
+   .resipe-method{
+      @extend .resipe-ingredients;
+
+      .method-text{
+         @extend .ingredients-text;
+      }
+   }
+}
