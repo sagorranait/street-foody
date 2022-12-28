@@ -54,9 +54,9 @@ function Home() {
                     </div>
                   </Link>
                   <Link to='/' className="category-card">
-                    <div className="card-content" style={{backgroundImage: `url(${fuchkaThum})`}}>
+                    <div className="card-content" style={{background: '#F9A51A'}}>
                         <div className="card-overlay"></div>
-                        <span>Fuchka3</span>
+                        <span>All Categories</span>
                     </div>
                   </Link>
                 </Slider> 
